@@ -1,0 +1,136 @@
+.AboutContainer {
+  text-align: center;
+  width: 100%;
+}
+
+.About img {
+  height: 320px;
+}
+
+.About {
+  display: flex;
+  align-items: center;
+  padding: 30px 60px;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.skills div {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.skills div p {
+  min-width: 170px;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.skills hr {
+  outline: none;
+  border: none;
+  width: 50%;
+  height: 8px;
+  border-radius: 50px;
+  background: linear-gradient(to right, purple, orange);
+}
+
+.myWorks{
+  display: flex;
+  gap: 13px;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.myWorks h2::after{
+  content: " :";
+}
+
+.myWorks a{
+  text-decoration: none;
+  color: black;
+  background: rgb(15, 239, 15);
+  width: 225px;
+  text-align: left;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: 400ms;
+}
+
+.myWorks a:hover{
+  transform: scale(1.1);
+}
+
+@media (max-width: 1130px) {
+  .skills div p {
+    min-width: 120px;
+    font-size: 1.2rem;
+  }
+  .skills div{
+    gap: 20px;
+  }
+  .AboutText {
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 850px) {
+  .About img {
+    height: 300px;
+  }
+  .About {
+    padding: 30px;
+  }
+  .About p {
+    font-size: 0.9rem;
+  }
+  .myWorks{
+    flex-direction: column;
+  }
+  .myWorks h2::after{
+    content: "";
+  }
+  
+}
+
+@media (max-width: 800px) {
+  .About {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .About img {
+    height: 200px;
+  }
+  .skills hr{
+    width: 10%;
+  }
+  .AboutText{
+    font-size: 0.8rem;
+  }
+  .skills div p{
+    width: 100px;
+    font-size: 0.9rem;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 630px) {
+  .About {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .About img {
+    height: 200px;
+  }
+}

@@ -1,0 +1,51 @@
+.HomePage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 60px auto;
+  gap: 20px;
+  text-align: center;
+}
+
+.HomePage div h1 span {
+  background: linear-gradient(to right, purple, orange);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.HomePage .ImgContainer {
+  height: 230px;
+  width: 230px;
+  border-radius: 50%;
+}
+
+.ImgContainer img {
+  width: 100%;
+}
+
+.btnComp {
+  display: flex;
+  gap: 20px;
+}
+
+@media (max-width: 600px) {
+  .HomePage {
+    padding: 0 30px;
+  }
+  .HomePage div h1 {
+    font-size: 1.8rem;
+  }
+  .HomePage div p {
+    font-size: 0.8rem;
+    margin-top: 50px;
+  }
+  .HomePage .ImgContainer {
+    height: 150px;
+    width: 150px;
+  }
+  .btnComp{
+    margin-top: 50px;
+  }
+}

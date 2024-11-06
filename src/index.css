@@ -1,0 +1,12 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+}
+
+.AppContainer{
+  background: #121212;
+  min-height: 100vh;
+  color: white;
+}
