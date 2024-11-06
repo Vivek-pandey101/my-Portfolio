@@ -18,7 +18,12 @@ function Navbar() {
           <Link to={"/about"}>About</Link>
           <Link to={"/contact"}>Contact</Link>
         </div>
-        <Button />
+        <a
+          href="https://wa.me/919452154385?text=Hello! I just submitted the form on your portfolio."
+          target="_blank"
+        >
+          <Button />
+        </a>
         <i className="fa-solid fa-bars" id="menuBar" onClick={hndleShow}></i>
       </div>
       {show && (
@@ -33,10 +38,16 @@ function Navbar() {
             onClick={hndleShow}
           ></div>
           <div className={styles.links}>
-          <i className="fa-solid fa-x"></i>
-            <Link to={"/"} onClick={hndleShow}>Home</Link>
-            <Link to={"/about"} onClick={hndleShow}>About</Link>
-            <Link to={"/contact"} onClick={hndleShow}>Contact</Link>
+            <i className="fa-solid fa-x"></i>
+            <Link to={"/"} onClick={hndleShow}>
+              Home
+            </Link>
+            <Link to={"/about"} onClick={hndleShow}>
+              About
+            </Link>
+            <Link to={"/contact"} onClick={hndleShow}>
+              Contact
+            </Link>
           </div>
         </div>
       )}

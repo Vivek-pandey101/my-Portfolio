@@ -13,7 +13,7 @@ export default function Button({
   };
   return (
     <div>
-      <button style={btnStyle}>{text}</button>
+      <button style={btnStyle} type="submit">{text}</button>
     </div>
   );
 }

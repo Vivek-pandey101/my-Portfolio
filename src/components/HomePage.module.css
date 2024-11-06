@@ -4,7 +4,7 @@
   justify-content: center;
   flex-direction: column;
   max-width: 500px;
-  margin: 60px auto;
+  margin: 0 auto;
   gap: 20px;
   text-align: center;
 }

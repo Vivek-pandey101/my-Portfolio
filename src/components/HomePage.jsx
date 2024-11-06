@@ -1,6 +1,7 @@
 import styles from "./HomePage.module.css";
 import profileImg from "../../public/ProfileImage-removebg-preview.png";
 import Button from "../items/Button";
+import resume from "../assets/Vivek.pdf";
 
 function HomePage() {
   return (
@@ -18,8 +19,17 @@ function HomePage() {
         </p>
       </div>
       <div className={styles.btnComp}>
-        <Button />
-        <Button background="none" border="2px solid gray" text="Resume"/>
+        <div>
+          <a
+            href="https://wa.me/919452154385?text=Hello! I just submitted the form on your portfolio."
+            target="_blank"
+          >
+            <Button />
+          </a>
+        </div>
+        <div onClick={() => window.open(resume)}>
+          <Button background="none" border="2px solid gray" text="Resume" />
+        </div>
       </div>
     </div>
   );
