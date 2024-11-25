@@ -39,14 +39,14 @@ function About() {
       </div>
       <div className={styles.myWorks}>
         <h2>My Works</h2>
-        <Link to={"https://vivkes-online-shop.netlify.app/"} target="_blank">
+        <Link to={"https://oneshopvivek.netlify.app/"} target="_blank">
           Online-Shop
         </Link>
         <Link to={"https://vivek-multi-step-form.netlify.app/"} target="_blank">
           Multi-Step-Form
         </Link>
         <Link
-          to={"https://oneshopvivek.netlify.app/"}
+          to={"https://gorgeous-licorice-a503c4.netlify.app/"}
           target="_blank"
         >
           Frontend E-commerce
