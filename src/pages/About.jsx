@@ -46,7 +46,7 @@ function About() {
           Multi-Step-Form
         </Link>
         <Link
-          to={"https://gorgeous-licorice-a503c4.netlify.app/"}
+          to={"https://oneshopvivek.netlify.app/"}
           target="_blank"
         >
           Frontend E-commerce
