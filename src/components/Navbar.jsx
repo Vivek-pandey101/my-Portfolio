@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import styles from "./Navbar.module.css";
 import Button from "../items/Button";
 import { useState } from "react";
@@ -14,9 +14,15 @@ function Navbar() {
       <div className={styles.NavbarContainer}>
         <h2>Vivek</h2>
         <div>
-          <Link to={"/"}>Home</Link>
-          <Link to={"/about"}>About</Link>
-          <Link to={"/contact"}>Contact</Link>
+          <NavLink to="/" activeClassName="active">
+            Home
+          </NavLink>
+          <NavLink to="/about" activeClassName="active">
+            About
+          </NavLink>
+          <NavLink to="/contact" activeClassName="active">
+            Contact
+          </NavLink>
         </div>
         <a
           href="https://wa.me/919452154385?text=Hello! I just submitted the form on your portfolio."

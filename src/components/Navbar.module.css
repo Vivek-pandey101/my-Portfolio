@@ -21,6 +21,11 @@
   text-decoration: none;
 }
 
+.NavbarContainer a:focus,
+.NavbarContainer a:hover {
+  color: #bf3f10;
+}
+
 .NavbarContainer i {
   display: none;
 }

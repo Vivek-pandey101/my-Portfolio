@@ -10,7 +10,7 @@
 }
 
 .HomePage div h1 span {
-  background: linear-gradient(to right, purple, orange);
+  background: linear-gradient(to right, #0dcaf0, #0077b6);
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -45,7 +45,7 @@
     height: 150px;
     width: 150px;
   }
-  .btnComp{
+  .btnComp {
     margin-top: 50px;
   }
 }
